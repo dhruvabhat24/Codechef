@@ -1,0 +1,13 @@
+# Solution as follows
+
+t=int(input())
+for i in range(t):
+    A, B, C = map(int,input().split())
+    total_score = A + B + C
+    minimum_score = min(A,B,C)
+    #Equality not checked for
+    if total_score>=100 and minimum_score>=10: 
+        #Yeah - we all make these mistakes. Printed 'Yes' instead of 'Pass' as expected
+        print('PASS')           
+    else:
+        print('FAIL')
