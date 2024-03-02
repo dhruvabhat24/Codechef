@@ -1,1 +1,1 @@
-# Codechef- Python
+# Codechef
